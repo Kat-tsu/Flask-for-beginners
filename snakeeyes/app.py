@@ -1,5 +1,9 @@
 from flask import Flask
 
+"""
+Adding template on the page 
+"""
+from snakeeyes.blueprints.page import page
 
 def create_app():
     """
