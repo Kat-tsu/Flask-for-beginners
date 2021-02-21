@@ -17,3 +17,6 @@ def terms():
 def privacy():
     return render_template('page/privacy.html')
     
+@page.route('gaming')
+def gaming():
+    return "gaming"
